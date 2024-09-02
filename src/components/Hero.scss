@@ -4,7 +4,6 @@
     height:calc(100vh - 100px);
     overflow: hidden;
     position: relative;
-    background-color: linear-gradient(180deg, #17153B, #433D8B);
 
     .wrapper {
         max-width: 1366px;
@@ -31,7 +30,7 @@
 
             h2 {
                 font-size: 30px;
-                color: #C8ACD6;
+                color: #70163c;
                 letter-spacing: 5px;
             }
 
@@ -49,10 +48,10 @@
 
                 button {
                     padding: 20px;
-                    border: 1px solid white;
+                    border: 1px solid #FCF7FF;
                     border-radius: 15px;
                     background-color: transparent;
-                    color: white;
+                    color: #FCF7FF;
                     margin-right: 15px;
                     cursor: pointer;
                 }
@@ -86,7 +85,7 @@
         font-size: 40vh;
         bottom: -120px;
         white-space: nowrap;
-        color: #b6bbc410;
+        color: #fcf7ff33;
         font-weight: bold;
         width: 90%;
         left: 0;

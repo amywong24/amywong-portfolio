@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #C8ACD6;
-    color: #433D8B;
+    background-color: #FCF7FF;
+    color: #70163c;
 
     .bg {
         z-index: 999;
@@ -13,7 +13,7 @@
         left: 0;
         bottom: 0;
         width: 400px;
-        background-color: #C8ACD6;
+        background-color: #FCF7FF;
 
         .links {
             position: absolute;
@@ -33,8 +33,8 @@
 
     button {
         z-index: 999;
-        width: 52px;
-        height: 52px;
+        width: 53px;
+        height: 53px;
         border-radius: 50%;
         position: fixed;
         top: 25px;

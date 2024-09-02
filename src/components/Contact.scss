@@ -76,23 +76,28 @@
             input, textarea {
                 padding: 15px;
                 background-color: transparent;
-                border: 1px solid white;
-                color: white;
+                border: 1px solid #FCF7FF;
                 border-radius: 5px;
                 width: 100%;
+                color: #FCF7FF;
 
                 @include mobile {
                     padding: 5px;
+                }
+
+                &::placeholder {
+                    color: #FCF7FF;
                 }
             }
 
             button {
                 padding: 15px;
                 border: none;
-                background-color: #C8ACD6;
+                background-color: #70163c;
                 font-weight: 500;
                 cursor: pointer;
                 border-radius: 20px;
+                color: #FCF7FF;
 
                 @include mobile {
                     padding: 10px;

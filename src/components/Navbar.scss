@@ -18,8 +18,8 @@
     }
 
     .full-name {
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 200px;
 
         @include mobile {
             display: none;
