@@ -4,19 +4,19 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [{
     id: 1,
-    title: "Project 1",
+    title: "MuseVibe",
     img: "https://wallpapers.com/images/hd/milk-and-mocha-bears-funny-art-d9obeizxdsoaog9y.jpg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum teehee.",
+    desc: "A Spotify-inspired music website. Created with React.js and Tailwind CSS.",
 },
 {
     id: 2,
-    title: "Project 2",
+    title: "ValoHub",
     img: "https://pbs.twimg.com/profile_images/1785002988853190657/WYvyFHPj_400x400.jpg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum teehee.",
 },
 {
     id: 3,
-    title: "Project 3",
+    title: "ReadersHub",
     img: "https://upload.wikimedia.org/wikipedia/en/e/e1/Milk_and_Mocha_characters.jpg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum teehee.",
 },
@@ -40,7 +40,7 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>View Site Here!</button>
+                        <button>View via GitHub</button>
                     </motion.div>
                 </div>
             </div>
