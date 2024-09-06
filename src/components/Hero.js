@@ -53,7 +53,7 @@ const Hero = () => {
                     </motion.div>
                 </motion.div>
             </div>
-            <motion.div className="slidingText" variants={sliderVariants} initial="initial" animate="animate">Software Developer Engineer Data Analyst</motion.div>
+            <motion.div className="slidingText" variants={sliderVariants} initial="initial" animate="animate">Software Developer Engineer Data Analyst Android Developer</motion.div>
             <div className="imageContainer">
                 <img src="/hero.png" alt="Amy Wong" />
             </div>
