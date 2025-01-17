@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [{
     id: 1,
     title: "MuseVibe",
-    img: "https://wallpapers.com/images/hd/milk-and-mocha-bears-funny-art-d9obeizxdsoaog9y.jpg",
+    img: "project1.png",
     desc: "A Spotify-inspired music website. Created with React.js and Tailwind CSS.",
 },
 {
