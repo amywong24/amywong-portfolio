@@ -7,18 +7,21 @@ const items = [{
     title: "MuseVibe",
     img: "project1.png",
     desc: "A Spotify-inspired music website. Created with React.js and Tailwind CSS.",
+    link: "https://github.com/amywong24/MuseVibe",
 },
 {
     id: 2,
     title: "ValoHub",
     img: "https://pbs.twimg.com/profile_images/1785002988853190657/WYvyFHPj_400x400.jpg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum teehee.",
+    link: "https://github.com/amywong24/MuseVibe",
 },
 {
     id: 3,
     title: "ReadersHub",
     img: "https://upload.wikimedia.org/wikipedia/en/e/e1/Milk_and_Mocha_characters.jpg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum teehee.",
+    link: "https://github.com/amywong24/MuseVibe",
 },
 ];
 
@@ -37,10 +40,12 @@ const Single = ({ item }) => {
                     <div className="imageContainer" ref={ref}>
                         <img src={item.img} alt="" />
                     </div>
-                    <motion.div className="textContainer" style={{y}}>
+                    <motion.div className="textContainer" style={{ y }}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>View via GitHub</button>
+                        <button onClick={() => window.open(item.link, "_blank", "noopener noreferrer")}>
+                            View via GitHub
+                        </button>
                     </motion.div>
                 </div>
             </div>
