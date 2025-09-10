@@ -11,10 +11,10 @@ const items = [{
 },
 {
     id: 2,
-    title: "ValoHub",
-    img: "https://pbs.twimg.com/profile_images/1785002988853190657/WYvyFHPj_400x400.jpg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum teehee.",
-    link: "https://github.com/amywong24/MuseVibe",
+    title: "Simple Weather App",
+    img: "project2.png",
+    desc: "Need to know where the weather is going? This app has you covered. Created with HTML, CSS, and JavaScript.",
+    link: "https://github.com/amywong24/simple-weather-app",
 },
 {
     id: 3,
