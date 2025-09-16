@@ -18,10 +18,10 @@ const items = [{
 },
 {
     id: 3,
-    title: "ReadersHub",
-    img: "https://upload.wikimedia.org/wikipedia/en/e/e1/Milk_and_Mocha_characters.jpg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum teehee.",
-    link: "https://github.com/amywong24/MuseVibe",
+    title: "Avatar Generator",
+    img: "project3.png",
+    desc: "Create unique avatars with this fun avatar generator. Created with HTML, CSS, and JavaScrit.",
+    link: "https://github.com/amywong24/avatar-generator",
 },
 ];
 

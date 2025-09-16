@@ -17,8 +17,8 @@ const Parallax = ({ type }) => {
         <div className="parallax" ref={ref} style={{
             background:
                 type === "about"
-                    ? "linear-gradient(180deg, #AE847E, #70163c)"
-                    : "linear-gradient(180deg, #AE847E, #fcf7ff)",
+                    ? "linear-gradient(180deg, #89C2D9, #012A4A)"
+                    : "linear-gradient(180deg, #89C2D9, #fcf7ff)",
         }}>
             <motion.h1 style={{y: yText}}>{type === "about" ? "About Me" : "Projects"}</motion.h1>
             <motion.div className="city" style={{ backgroundImage: `url(/city.png)` }}></motion.div>

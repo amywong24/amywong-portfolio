@@ -29,24 +29,22 @@ const About = () => {
                 <div className="textContainer">
                     <h4>Get to Know Me!</h4>
                     <p>My name is Amy and I'm a Chinese-American from the San Gabriel Valley in California.
-                        I recently graduated from Cal State LA in May 2024 with a Bachelor's degree in Computer
+                        I graduated from Cal State LA in May 2024 with a Bachelor's degree in Computer
                         Information Systems, specializing in Information Technology. With a passion
-                        for technology and a drive to innovate, I am actively seeking for new full-time graduate
-                        roles.</p>
+                        for technology and a drive to innovate, I am actively seeking for full-time roles
+                        in Frontend Engineering, Android Development, and Data Analytics.</p>
                     <br />
-                    <p>I have a keen interest towards Software Development (mainly Frontend), Android Development,
-                        and Data Analysis. One of the projects I enjoyed working on is MuseVibe, which is
-                        a frontend, Spotify-inspired music website where you can listen to music for
-                        free. I do plan to continue with that project by learning and utilizing the MERN (MongoDB,
-                        ExpressJS, ReactJS, and NodeJS) stack to make the site fully functional. I enjoy
-                        creating applications and ensuring that it is user-friendly.</p>
+                    <p>I am currently learning more on ReactJS to ensure flexible and efficient user 
+                        interfaces in web applications and utilize various JavaScript libraries. I plan to learn 
+                        another programming language such as Python and Kotlin and build some projects revolving
+                        each languages.</p>
                     <br />
                     <p>When I'm not in the technology world, I enjoy playing video games, learning a new
                         language, and reading books and novels. I am currently learning Korean (한국어)
-                        out of interest. I also would like to learn Mandarin Chinese (中文) in the future.</p>
+                        and Mandarin Chinese (中文). I am currently a licensed Pharmacy Technician in CVS Health.</p>
                 </div>
                 <div className="skillsContainer">
-                <h4>My Skills</h4>
+                    <h4>Skills</h4>
                     <div className="skillsetContainer">
                         <div className="skill">HTML/CSS</div>
                         <div className="skill">JavaScript</div>
@@ -55,9 +53,10 @@ const About = () => {
                         <div className="skill">Replit</div>
                         <div className="skill">Github</div>
                         <div className="skill">Git</div>
-                        <div className="skill">Microsoft Office (Word, Excel, PowerPoint)</div>
                         <div className="skill">PowerBI</div>
-                        <div className="skill">Microsoft Project</div>
+                        <div className="skill">Tableau</div>
+                        <div className="skill">Google Workspace</div>
+                        <div className="skill">Microsoft Office</div>
                     </div>
                 </div>
             </motion.div>
